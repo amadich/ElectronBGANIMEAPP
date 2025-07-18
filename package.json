@@ -1,0 +1,71 @@
+{
+  "name": "burgeranime",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "electron-main.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "electron:start": "vite build && electron .",
+    "electron:build": "electron-builder",
+    "electron:run": "electron ."
+  },
+  "build": {
+  "appId": "com.burgeranime.app",
+  "productName": "BurgerAnime",
+  "directories": {
+    "output": "dist_electron"
+  },
+  "files": [
+    "dist/**/*",
+    "electron-main.cjs"
+  ],
+  "win": {
+    "icon": "public/favicon.ico",
+    "target": "nsis"
+  }
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@firebase/auth": "^1.3.0",
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@mui/material": "^5.14.6",
+    "axios": "^1.4.0",
+    "firebase": "^10.1.0",
+    "jwt-decode": "^3.1.2",
+    "react": "^18.2.0",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^18.2.0",
+    "react-google-recaptcha": "^3.1.0",
+    "react-icons": "^4.10.1",
+    "react-router-dom": "^6.14.2",
+    "react-spinners": "^0.13.8",
+    "socket.io-client": "^4.7.5",
+    "uuid": "^9.0.0",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@types/react-google-recaptcha": "^2.1.5",
+    "@types/uuid": "^9.0.2",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.14",
+    "daisyui": "^3.5.0",
+    "electron": "^37.2.3",
+    "electron-builder": "^26.0.12",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
