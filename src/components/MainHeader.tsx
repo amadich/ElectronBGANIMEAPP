@@ -14,7 +14,7 @@ function MainHeader({userCount} : any ) {
 
    return ( 
       <>
-            <div className="w-full fixed z-[1000] top-0 left-0 ">
+            <div className="w-full fixed z-[1000] top-5 left-0 ">
                   <header className=" relative z-20 flex justify-around items-center h-16 uppercase font-semibold bg-[#222] text-white">
                      
                      <div className="flex justify-around items-center">

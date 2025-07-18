@@ -9,7 +9,7 @@ import UserConnecting from "../../../components/UserConnecting";
 function AvatarHeader({userCount} : any) {
    return ( 
       <>
-         <div className="navbar select-none relative z-50 ">
+         <div className="navbar select-none relative top-5 z-50 ">
                   <div className="flex-1 ">
                      <ul className="md:flex hidden space-x-10 text-white ml-16 items-center ">
                         <Link to="/"><li><img src={Logo} width={40} className=" duration-150 hover:w-[45px] " /></li></Link>
