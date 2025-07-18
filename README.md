@@ -3,7 +3,8 @@
 
 BurgerAnime is a desktop application built with Electron and React, designed to provide an immersive anime experience. This application is cross-platform and supports Windows, macOS, and Linux.
 
-<img width="1261" height="869" alt="image" src="https://github.com/user-attachments/assets/2ec5495b-c648-456f-a37d-8c5ede00f966" />
+<img width="1193" height="724" alt="image" src="https://github.com/user-attachments/assets/e203d078-a242-4edc-8bb7-49d62e74b0bc" />
+
 
 
 ## Features
